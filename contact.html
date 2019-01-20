@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/poper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="http://localhost:8000/">
+                <img src="image/mobile-shop.jpg" width="60px" height="60px">فروشگاه
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#SHMainMenu" aria-controls="SHMainMenu"
+                aria-expanded="false" aria-label="نمایش فهرست">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="SHMainMenu">
+                <ul class="navbar-nav">
+                    <li class="navbar-item active">
+                        <a class="nav-link" href="index.html">صفحه اصلی</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link" href="contact.html">تماس با ما</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card mb-4 my-5">
+                    <h5 class="card-header">تماس با ما</h5>
+                    <div class="card-body">
+                        <div class="card-text">
+                            شما می توانید با استفاده از فرم زیر، با ما در تماس باشید
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="user">نام و نام خانواگی:</label>
+                                    <input type="text" class="form-control" id="user">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="user">پست الکترونیک:</label>
+                                    <input type="text" class="form-control" id="user">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="cmnt">پیام شما :</label>
+                            <textarea class="form-control" rows="5" id="cmnt"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-info">ارسال پیام</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card my-4">
+                    <h5 class="card-header">
+                        جستجو
+                    </h5>
+                    <div class="card-body">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="کلمه کلیدی + اینتر">
+                            <span class="input-group-btn mr-1">
+                                <button class="btn btn-scondary" type="button">
+                                    <img src="image/search.png">
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card my-5">
+                    <h5 class="card-header">
+                        دسته بندی
+                    </h5>
+                    <div class="card-body">
+                        <div class="row">
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="#">آموزش HTML</a>
+                                </li>
+                                <li>
+                                    <a href="#">آموزش CSS</a>
+                                </li>
+                                <li>
+                                    <a href="#">آموزش Java Script</a>
+                                </li>
+                                <li>
+                                    <a href="#">آموزش jquery</a>
+                                </li>
+                            </ul>
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="#">آموزش PHP</a>
+                                </li>
+                                <li>
+                                    <a href="#">آموزش Wordpress</a>
+                                </li>
+                                <li>
+                                    <a href="#">آموزش Joomla</a>
+                                </li>
+                                <li>
+                                    <a href="#">آموزش ASP</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="py-5 bg-light">
+        <div class="container">
+            <p class="m-0 text-center text-dark">
+                قالب آموزشی وبلاگ
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
